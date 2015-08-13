@@ -1,8 +1,9 @@
 package commons.mapper
 
+import java.sql.ResultSet
+
 import scala.collection.JavaConversions.{ mapAsJavaMap, mapAsScalaMap }
 import scala.collection.concurrent.TrieMap
-import java.sql.ResultSet
 
 /**
  * @author Kai Han

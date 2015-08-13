@@ -3,8 +3,6 @@ package commons.mapper
 import java.lang.reflect.Method
 import java.util.UUID
 
-import scala.collection.concurrent.TrieMap
-
 import commons.mapper.utils.TypeUtils
 import javassist.{ ClassClassPath, ClassPool, CtClass, CtConstructor, CtMethod, Modifier }
 

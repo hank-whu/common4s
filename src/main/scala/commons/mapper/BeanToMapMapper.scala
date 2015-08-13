@@ -1,9 +1,9 @@
 package commons.mapper
 
-import java.lang.reflect.Method
+import java.lang.reflect.{ Field, Method }
 import java.util.UUID
+
 import javassist.{ ClassPool, CtClass, CtConstructor, CtMethod, Modifier }
-import java.lang.reflect.Field
 
 /**
  * @author Kai Han

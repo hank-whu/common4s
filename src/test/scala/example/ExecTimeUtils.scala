@@ -1,10 +1,9 @@
 package example
 
-import scala.annotation.elidable
-import scala.annotation.elidable.ASSERTION
+import java.text.NumberFormat
+
 import scala.math.BigInt
 import scala.math.BigInt.{ int2bigInt, long2bigInt }
-import java.text.NumberFormat
 
 /**
  * @author Kai Han
